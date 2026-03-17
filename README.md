@@ -12,18 +12,11 @@ YT Summarizer
 
   Tech stack: Python · FastAPI · Streamlit · Azure OpenAI · youtube-transcript-api
 
-  API Endpoints:
+  API Endpoints
 
-  ┌────────┬─────────────────┬────────────────────────────────────────────────────────┐
-  │ Method │      Route      │                      Description                       │
-  ├────────┼─────────────────┼────────────────────────────────────────────────────────┤
-  │ POST   │ /api/transcript │ Fetch transcript from a YouTube URL                    │
-  ├────────┼─────────────────┼────────────────────────────────────────────────────────┤
-  │ POST   │ /api/summarize  │ Summarize a transcript (paragraph / bullets /          │
-  │        │                 │ chapters)                                              │
-  ├────────┼─────────────────┼────────────────────────────────────────────────────────┤
-  │ POST   │ /api/ask        │ Ask a question about the transcript                    │
-  └────────┴─────────────────┴────────────────────────────────────────────────────────┘
+POST /api/transcript — Fetch transcript from a YouTube URL
+POST /api/summarize — Summarize a transcript (paragraph / bullets / chapters)
+POST /api/ask — Ask a question about the transcript
 
   ---
   Getting Started
